@@ -79,7 +79,7 @@ nav {
 }
 
 main {
-     border: solid 2px blueviolet;
+     /*border: solid 2px blueviolet;*/
      display: flex;
      justify-content: center; 
      margin-top: 90px;
@@ -97,11 +97,13 @@ main {
 }
 
 .banner > h2 {
+    /*border: red 2px solid;*/
     margin-left: 87px;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 450;
-    color: #385f51;   
+    color: #385f51; 
+    margin-top: 10px;  
 }
 
 .banner > h3 {
@@ -109,7 +111,8 @@ main {
     font-size: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 450;
-    color: #385f51;   
+    color: #385f51; 
+    margin-top: 10px;  
 }
 
 .banner > .btn {
@@ -133,5 +136,5 @@ main {
     font-weight: 850;
     color: #163b34;
     margin-top: 34rem;
-    margin-left: 24.5%;
+    margin-left: 23.5%;
 }
