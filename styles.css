@@ -21,6 +21,13 @@ nav {
     margin: auto;
 }
 
+.Logo {
+    /*border: 2px red solid;*/
+    position: absolute;
+    top: 3%;
+    left: 6.5%;
+    z-index: -1;
+}
 .innerNav {
     display: flex;
     align-items: center;
@@ -121,20 +128,265 @@ main {
 
 }
 
-.bannering {
+.sideLines {
     /*border: red solid 2px;*/
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 245%;
+    position: absolute;
+    bottom: -50%;
+    left: 5%;
+    z-index: 1;
+
+}
+.bannering {
+    border: #fffffd solid 12px;
+    border-radius: 15px;
     position: absolute;
     left: 14%;
-    margin-top: 30px;
+    margin-top: 40px;
+    
+}
+
+.lady {
+    border: white 2px solid;
+    margin-bottom: -5px;
+    border-radius: 20px;
+    width: 900px;
+    z-index: -1;
    
 }
 
 .offer > p {
-    /*border: 2px solid red;*/
+    /* border: 2px solid red; */
     font-family: "Nunito", sans-serif;
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 850;
     color: #163b34;
     margin-top: 34rem;
-    margin-left: 23.5%;
+    margin-left: 20%;
+}
+
+.offerContents {
+    /* border: red solid 2px; */
+    padding-bottom: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: absolute;
+    left: 4rem;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem; 
+}
+
+.whole-food {
+    /* border: blue 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-right: -2rem;
+}
+
+.whole-food img {
+    /* border: #eea780 2px solid; */
+    margin-right: 195px;
+    margin-bottom: 10px;
+}
+.whole-food > hh {
+    /* border: yellow 2px solid; */
+    margin-left: 1px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    width: 17rem;
+    font-weight: 850;
+    color: #163b34;
+}
+
+.whole-food > yyy {
+    /* border: yellowgreen solid 2px; */
+    margin-left: -2px;
+    font-weight: 400;
+    color: #163b34;
+    font-size: 15px;
+    width: 15rem;
+    font-weight: 500;
+}
+
+.minimum {
+    /* border: brown solid 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+}
+     
+.minimum > img {
+    /* border: blueviolet; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.minimum > hh {
+    /* border: magenta 2px solid; */
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    width: 12rem;
+    font-weight: 850;
+    color: #163b34;
+}
+
+.minimum > yyy {
+    /* border: red solid 2px; */
+    margin-left: 0px;
+    font-weight: 400;
+    color: #163b34;
+    font-size: 15px;
+    width: 15rem;
+    font-weight: 500;
+}
+
+.search {
+    /* border: 2px solid yellowgreen; */
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    margin-top: -2rem;
+}
+
+.search > img {
+    /* border: solid 2px burlywood; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.search > hh {
+    /* border: rgb(219, 111, 221) 2px solid; */
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    width: 15rem;
+    font-weight: 850;
+    color: #163b34;
+}
+
+.search > yyy {
+    /* border: rgb(252, 116, 88) solid 2px; */
+    margin-left: 0px;
+    font-weight: 400;
+    color: #163b34;
+    font-size: 15px;
+    width: 15rem;
+    font-weight: 500;
+}
+
+.cookingIllustration {
+    /* border: red solid 2px; */
+    position: absolute;
+    top: 230%;
+    left: 5%;
+    right: 5%;
+    padding-block: 5rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 10rem;
+    
+}
+
+.theory {
+    /* border: rgb(77, 29, 235) solid 2px; */
+    width: 320px;
+    padding-bottom: 5rem;
+    gap: 10px;
+}
+.theory > h5 {
+    /* border: #ed516e solid 2px; */
+    margin-bottom: 30px;
+    font-family: "Nunito", sans-serif;
+    font-size: 33px;
+    font-weight: 850;
+    color: #163b34;
+}
+
+.theory > h2 {
+    /* border: #814c55 2px solid; */
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #385f51; 
+
+    
+}
+
+.theory > h2 {
+    /* border: rgb(50, 79, 21) solid 2px; */
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #385f51; 
+    
+    
+}
+
+.cutting {
+    /* border: 2px solid rgb(139, 254, 17); */
+    border-radius: 15px;
+}
+.cutting > img {
+    /* border: black 2px solid; */
+    border-radius: 15px;
+    width: 400px;
+}
+.backdropOrangeColor2 {
+    /* border:#e57e2f solid 2px; */
+    background-color:  #e57e2f;
+    width: 4.2rem;
+    height: 0.7rem;
+    position: absolute;
+    bottom: 17.5rem;
+    left: 13rem;
+    z-index: -1;
+}
+
+.backdropOrangeColor2 > bb {
+    opacity: 10%;
+}
+
+.bigMaster {
+    border: solid 2px yellow;
+    background-color: #e8ede7;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35rem;
+
+}
+footer img1 {
+    border: red 2px solid;
+    gap: 20rem;
+    position: absolute;
+    
 }
