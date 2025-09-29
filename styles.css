@@ -22,7 +22,7 @@ nav {
 }
 
 .Logo {
-    /*border: 2px red solid;*/
+    /* border: 2px red solid; */
     position: absolute;
     top: 3%;
     left: 6.5%;
@@ -44,29 +44,39 @@ nav {
     
 }
 
-.navLinks > a {
+.navLinks {
+    /* border: yellow solid 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.navLinks > h2 > a{
+    /* border: 5px rgb(255, 0, 217) solid; */
     color: #385f51;
     text-decoration: none;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 450;
 }
 
-.navLinks > a > b {
-    border-bottom: 2px solid #eea780;
-}
-
-.navLinks > a > c {
-    font-weight: 600;
-}
-
-.navLinks > a > d {
-    font-weight: 600;
+.navLinks > h2 > a1 {
+     /* border: rgb(0, 247, 255) solid 4px; */
+     color: #385f51;
+     border-bottom: #e57e2f solid 2px;
+     font-family: "Poppins", sans-serif;
+     text-transform: capitalize;
+     font-size: 12px;
+     font-weight: 450;
 }
 
 .btn {
     background-color: #163b34;
     color: white;
     font-family: "Poppins", sans-serif;
-    padding: 0.5rem 0.8rem;
+    padding: 0.7rem 2.3rem;
     border-radius: 8px;
 }
 
@@ -86,7 +96,7 @@ nav {
 }
 
 main {
-     /*border: solid 2px blueviolet;*/
+     /* border: solid 2px blueviolet; */
      display: flex;
      justify-content: center; 
      margin-top: 90px;
@@ -95,7 +105,7 @@ main {
 }
 
 .banner > h1 {
-    /*border: 2px red solid;*/
+    /* border: 4px rgb(0, 255, 13) solid; */
     font-family: "Nunito", sans-serif;
     font-size: 55px;
     font-weight: 850;
@@ -104,26 +114,17 @@ main {
 }
 
 .banner > h2 {
-    /*border: red 2px solid;*/
+    /* border: red 5px solid; */
     margin-left: 87px;
-    font-size: 15px;
+     font-size: 12px;
     font-family: "Poppins", sans-serif;
     font-weight: 450;
     color: #385f51; 
-    margin-top: 10px;  
-}
-
-.banner > h3 {
-    margin-left: 200px;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 450;
-    color: #385f51; 
-    margin-top: 10px;  
+      
 }
 
 .banner > .btn {
-    margin-left:  269px;
+    margin-left:  250px;
     margin-top: 50px;
 
 }
@@ -134,32 +135,28 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 245%;
+    gap: 240%;
     position: absolute;
     bottom: -50%;
     left: 5%;
-    z-index: 1;
+    z-index: -1;
 
 }
-.bannering {
-    border: #fffffd solid 12px;
-    border-radius: 15px;
+   
+.chefLady > img {
+    border: white 10px solid;
+    border-radius: 20px;
     position: absolute;
-    left: 14%;
-    margin-top: 40px;
+    left: 10%;
+    bottom: -60% ;
+    width: 1000px;
+    height: 425px;
+    
     
 }
 
-.lady {
-    border: white 2px solid;
-    margin-bottom: -5px;
-    border-radius: 20px;
-    width: 900px;
-    z-index: -1;
-   
-}
 
-.offer > p {
+.offer > h5 {
     /* border: 2px solid red; */
     font-family: "Nunito", sans-serif;
     font-size: 33px;
@@ -175,31 +172,36 @@ main {
     padding-right: 10%;
     padding-left: 10%;
     position: absolute;
-    left: 4rem;
+    left: 0rem;
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem; 
+    gap: 6rem; 
 }
 
 .whole-food {
-    /* border: blue 2px solid; */
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-evenly;
-    padding-bottom: 2rem;
-    padding-right: -2rem;
+    margin-bottom: 125rem;
+    width: 15rem
 }
 
-.whole-food img {
-    /* border: #eea780 2px solid; */
-    margin-right: 195px;
-    margin-bottom: 10px;
+.whole-food > .foodIcon > img {
+    /* border: #1fdbe2 4px solid; */
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    z-index: -1;
+   
 }
 .whole-food > hh {
     /* border: yellow 2px solid; */
+     position: absolute;
+     top: 7.5rem;
     margin-left: 1px;
     margin-bottom: 10px;
     font-family: "Nunito", sans-serif;
@@ -209,57 +211,75 @@ main {
     color: #163b34;
 }
 
-.whole-food > yyy {
+.whole-food > h2 {
     /* border: yellowgreen solid 2px; */
-    margin-left: -2px;
-    font-weight: 400;
-    color: #163b34;
-    font-size: 15px;
-    width: 15rem;
-    font-weight: 500;
+    position: absolute;
+     top: 10rem;
+    margin-left: 1px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #385f51;    
 }
 
 .minimum {
     /* border: brown solid 2px; */
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-evenly;
-    padding-bottom: 2rem;
-    padding-right: 3rem;
+    margin-bottom: 125rem;
+    width: 15rem
+}
+
+.minimum > .minIcon {
+    /* border: 3px solid red; */
+    margin-bottom: 8rem;
+    margin-top: 5rem; 
 }
      
-.minimum > img {
-    /* border: blueviolet; */
+.minimum > .minIcon > img {
+    /* border: blueviolet 2px solid; */
+    background-color: white;
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 2.5rem;
     margin-right: 10px;
-    margin-bottom: 10px;
-
+    margin-bottom: 2rem;
+    z-index: -1;
 }
 
 .minimum > hh {
     /* border: magenta 2px solid; */
-    margin-left: 0px;
-    margin-bottom: 10px;
+     width: 12rem;
+     position: absolute;
+     top: 7.5rem;
     font-family: "Nunito", sans-serif;
     font-size: 25px;
-    width: 12rem;
     font-weight: 850;
     color: #163b34;
+    font-size: 25px;
+    width: 17rem;
+    font-weight: 850;
 }
 
-.minimum > yyy {
-    /* border: red solid 2px; */
-    margin-left: 0px;
-    font-weight: 400;
-    color: #163b34;
-    font-size: 15px;
-    width: 15rem;
-    font-weight: 500;
+.minimum > h2 {
+    /* border: rgb(43, 232, 242) solid 2px; */
+    width: 13rem;
+     position: absolute;
+     top: 10rem;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #385f51;  
 }
 
 .search {
     /* border: 2px solid yellowgreen; */
+    width: 20rem;
+    margin-top: 9rem;
     width: 15rem;
+     position: absolute;
+    top: -9rem;
+    right: -14rem;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -267,19 +287,24 @@ main {
     padding-bottom: 2rem;
     padding-top: 2rem;
     padding-right: 3rem;
-    margin-top: -2rem;
+   
 }
 
-.search > img {
+.search > .searchIcon > img {
     /* border: solid 2px burlywood; */
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    z-index: -1;
 }
 
 .search > hh {
     /* border: rgb(219, 111, 221) 2px solid; */
     margin-left: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: "Nunito", sans-serif;
     font-size: 25px;
     width: 15rem;
@@ -287,15 +312,21 @@ main {
     color: #163b34;
 }
 
-.search > yyy {
-    /* border: rgb(252, 116, 88) solid 2px; */
+.search > h2 {
+    /* border: rgb(77, 66, 174) solid 2px; */
+    width: 17rem;
     margin-left: 0px;
-    font-weight: 400;
-    color: #163b34;
-    font-size: 15px;
-    width: 15rem;
-    font-weight: 500;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #385f51; 
+    position: absolute;
+    top: 10rem;
+   
+    
+
 }
+
 
 .cookingIllustration {
     /* border: red solid 2px; */
@@ -314,10 +345,15 @@ main {
 }
 
 .theory {
-    /* border: rgb(77, 29, 235) solid 2px; */
+    /* border: rgb(89, 201, 52) solid 2px; */
     width: 320px;
-    padding-bottom: 5rem;
-    gap: 10px;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
+    padding-top: 4rem ;
+    position: absolute;
+    left: 6%
+    
+  
 }
 .theory > h5 {
     /* border: #ed516e solid 2px; */
@@ -329,19 +365,8 @@ main {
 }
 
 .theory > h2 {
-    /* border: #814c55 2px solid; */
-    margin-bottom: 30px;
-    font-size: 12px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 450;
-    color: #385f51; 
-
-    
-}
-
-.theory > h2 {
-    /* border: rgb(50, 79, 21) solid 2px; */
-    margin-bottom: 30px;
+    /* border: rgb(187, 31, 70) solid 2px; */
+    margin-bottom: 15px;
     font-size: 12px;
     font-family: "Poppins", sans-serif;
     font-weight: 450;
@@ -351,8 +376,10 @@ main {
 }
 
 .cutting {
-    /* border: 2px solid rgb(139, 254, 17); */
+    /* border: 4px solid rgb(254, 17, 195); */
     border-radius: 15px;
+    position: absolute;
+    right: 7%;
 }
 .cutting > img {
     /* border: black 2px solid; */
@@ -360,13 +387,13 @@ main {
     width: 400px;
 }
 .backdropOrangeColor2 {
-    /* border:#e57e2f solid 2px; */
+    /* border:#6b3003 solid 2px;  */
     background-color:  #e57e2f;
-    width: 4.2rem;
-    height: 0.7rem;
+    width: 4.3rem;
+    height: 0.5rem;
     position: absolute;
-    bottom: 17.5rem;
-    left: 13rem;
+    bottom: -5.8rem;
+    left: 10rem;
     z-index: -1;
 }
 
@@ -375,18 +402,71 @@ main {
 }
 
 .bigMaster {
-    border: solid 2px yellow;
-    background-color: #e8ede7;
-    width: 80%;
+    /* border: rgb(255, 119, 7) solid 4px; */
+    height: 19rem; 
+    margin-top: 35rem;
+    margin-bottom: 60px;
+    background-color: #e5ebe3;
+}
+.Kit {
+    /* border: rgb(60, 0, 255) solid 4px; */
+    height: 15rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 35rem;
+    justify-content: space-between;
+}
+
+.Kit > img {
+   /* border: greenyellow solid 2px; */
+   height: 19rem;
+   width: 14rem;
+   margin-bottom: -60px;
+}
+
+.lowBanner {
+    /* border: solid 4px greenyellow; */
+    display: flex;
+    width: 40rem;
+    position: absolute;
+    right: 15rem;
+    bottom: -90rem;
+    padding-block: 5rem;
+    padding-inline: 3rem;
+}
+
+.cook > h5 {
+    /* border: red solid 3px; */
+    font-family: "Nunito", sans-serif;
+    font-size: 33px;
+    font-weight: 850;
+    color: #163b34;  
+    
+}
+
+.cook > h2 {
+    /* border: rgb(255, 47, 71); */
+    margin-left: -0.4rem;
+    margin-top: 1rem;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #385f51; 
 
 }
-footer img1 {
-    border: red 2px solid;
-    gap: 20rem;
+
+.cook > .btn {
+    /* border: 4px solid yellow; */
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.ending {
+    /* border: 3px solid rgb(222, 204, 44); */
+    width: 1013px;
+    margin-left: 8rem;
     position: absolute;
-    
+    top: 125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
