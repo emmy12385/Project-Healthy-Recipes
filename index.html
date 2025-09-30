@@ -1,138 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Healthy Recipe</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav>
-        <div class="Logo"><img src="./image/logo.JPG" alt="logo"></div>
-        <div class="innerNav genLayout">
-            
-             <h1>healthy recipe finder</h1>
+      <div class="Logo"><img src="./image/logo.JPG" alt="logo" /></div>
+      <div class="innerNav genLayout">
+        <h1>healthy recipe finder</h1>
 
-             <div class="navLinks">
-                <h2><a1 href="#">home</a1></h2>
-               <h2><a href="#">about</a></h2>
-                <h2><a href="#">recipes</a></h2>
-            </div>
+        <!-- hamburger code  -->
+         <label for="toggle" class="hamburger">&#9776</label>
+         <input type="checkbox" id="toggle">
 
-             <button class="btn">Browse recipes</button>
+        <div class="navRight">
+          <div class="navLinks">
+            <h2><a1 href="#">home</a1></h2>
+            <h2><a href="#">about</a></h2>
+            <h2><a href="#">recipes</a></h2>
+          </div>
+
+          <button class="btn">Browse recipes</button>
         </div>
-
+      </div>
     </nav>
 
     <main>
-        <section>
+      <section>
+        <div class="banner genLayout">
+          <h1><span>Healthy</span> meals, zero fuss</h1>
+          <!-- <div class="backdropOrangeColor"><kk>h2</kk></div> -->
 
-            <div class="banner genLayout">
-                <h1>Healthy meals, zero fuss</h1>
-                <div class="backdropOrangeColor"><kk>h2</kk></div> 
+          <p>
+            Discover eight quick, whole-food recipes that you can cook tonight
+          </p>
 
-                <h2>Discover eight quick, whole-food recipes that you can cook tonight</h2>
+          <p>-no processed junk, no guesswork.</p>
 
-                <h2>-no processed junk, no guesswork.</h2>
+          <button class="btn">Start exploring</button>
+        </div>
 
-                <button class="btn">Start exploring</button>
+        <div class="bannerImg genLayout">
+          <!-- <div class="sideLines"> -->
+          <img src="./image/leftLine.JPG" alt="line" />
+          <!-- </div> -->
+
+          <div class="chefLady">
+            <img src="./image/mainChef.JPG" alt="madam" />
+          </div>
+
+          <img src="./image/rightLine.JPG" alt="lane" />
+        </div>
+      </section>
+
+      <section>
+        <div class="offer genLayout">
+          <h5>What you'll get</h5>
+
+          <div class="offerContents">
+            <!-- first food card  -->
+            <div class="foodCard">
+              <span>
+                <img src="./image/carrot.png" alt="food" />
+              </span>
+
+              <h4>Whole-food recipes</h4>
+              <p>Each dish uses-everyday, unprocessed ingredients.</p>
             </div>
 
-            <div class="sideLines">
-               <img src="./image/leftLine.JPG" alt="line">
-               <img src="./image/rightLine.JPG" alt="lane">
+            <!-- second food card  -->
+            <div class="foodCard">
+              <span>
+                <img src="./image/minimumFussicon.png" alt="min" />
+              </span>
+
+              <h4>Minimum fuss</h4>
+              <p>
+                All recipes are designed to make eating healthy quick and easy.
+              </p>
             </div>
 
-            <div class="bannering">
+            <!-- third food card  -->
+            <div class="foodCard">
+              <span>
+                <img src="./image/search.png" alt="search" />
+              </span>
 
-                <div class="lady">
-                    <div class="chefLady"><img src="./image/mainChef.JPG" alt="madam"></div>
-                    
-                </div>
-                    
+              <h4>Search in seconds</h4>
+              <p>
+                Filter by name or ingerdient and jump straight to the recipe you
+                need.
+              </p>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="offer">
-                <h5>What you'll get</h5>
+      <section>
+        <div class="cookingIllustration genLayout">
+          <div class="theory">
+            <h5>Built for real life</h5>
+            <p>
+              Cooking sholudn't be complicated, These recipes come in under 30
+              minutes of active time, fit busy schedules and taste good enough
+              to repeat.
+            </p>
+
+            <p>
+              Whether you're new to the kitchen or just need fresh ideas, we've
+              got you covered.
+            </p>
+          </div>
+
+            <div class="cutting">
+              <img src="./image/cuttingVeg.JPG" alt="veg" />
             </div>
-              
-            <div class="offerContents">
-
-                 <div class="whole-food">
-                    <div class="foodIcon"><img src="./image/carrot.png" alt="food"/></div>
-
-                      <hh><h4 >Whole-food recipes</h4></hh>
-                      <h2><p>Each dish uses-everyday, unprocessed ingredients.</p></h2>
-                 </div>
-
-                 <div class="minimum">
-                    <div class="minIcon"><img src="./image/minimumFussicon.png" alt="min"/></div>  
-                    
-                    <hh><h4>Minimum fuss</h4></hh>
-                    <h2><p>All recipes are designed to make eating healthy quick and easy.</p></h2>
-                 </div>
-
-                 <div class="search">
-                     <div class="searchIcon"><img src="./image/search.png" alt="search"/></div>
-                      
-                      <hh><h4>Search in seconds</h4></hh>
-                    <h2><p>Filter by name or ingerdient and jump straight to the recipe you need.</p></h2>
-                 </div>
-
-                 
-            </div>
-
-            <div class="cookingIllustration">
-                 <div class="theory">
-                    <h5>Built for real life</h5>
-                     <h2>Cooking sholudn't be complicated, These recipes come in under 30 minutes of active time, 
-                        fit busy schedules and taste good enough to repeat.
-                     </h2>
-
-                    <h2>Whether you're new to the kitchen or just need fresh ideas, we've got you covered.</h2> 
-
-                 </div>
-                  
-                 <div class="practical">
-                    <div class="cutting"><img src="./image/cuttingVeg.JPG" alt="veg"></div>
-
-                 <div class="backdropOrangeColor2"><bb>h2</bb></div>    
-                     
-                 </div>
-
-            </div>
-        </section>
-        
+        </div>
+      </section>
     </main>
 
-        <div class="bigMaster genLayout">
+    <div class="bigMaster genLayout">
+      <div class="Kit">
+        <img src="./image/fork.JPG" alt="fork" />
+        <img src="./image/knife.JPG" alt="knife" />
+      </div>
+    </div>
 
-            <div class="Kit">
-                <img src="./image/fork.JPG" alt="fork">
-                <img src="./image/knife.JPG" alt="knife">
-            </div>
-          
-        </div>
-        
-        <div class="lowBanner">
-              <div class="cook">
-                <h5>Ready to cook smaster?</h5>
-                <h2>Hit the button, pick a recipe, and get dinner on the table----fast</h2>
-                <button class="btn">Browse recipe</button>
-              </div>
-        </div>
+    <div class="lowBanner">
+      <div class="cook">
+        <h5>Ready to cook smaster?</h5>
+        <h2>
+          Hit the button, pick a recipe, and get dinner on the table----fast
+        </h2>
+        <button class="btn">Browse recipe</button>
+      </div>
+    </div>
 
-        <div class="ending">
+    <div class="ending">
+      <div class="slogan">
+        <img src="./image/with love.JPG" alt="love" />
+      </div>
 
-            <div class="slogan">
-                <img src="./image/with love.JPG" alt="love">
-            </div>
-
-            <div class="social">
-                <img src="./image/social.JPG" alt="social">
-            </div>
-        </div>
-</body>
+      <div class="social">
+        <img src="./image/social.JPG" alt="social" />
+      </div>
+    </div>
+  </body>
 </html>
