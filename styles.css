@@ -235,16 +235,7 @@ nav {
   border-radius: 15px;
   width: 100%;
 }
-.backdropOrangeColor2 {
-  /* border:#6b3003 solid 2px;  */
-  /* background-color: #e57e2f; */
-  width: 4.3rem;
-  height: 0.5rem;
-  position: absolute;
-  bottom: -5.8rem;
-  left: 10rem;
-  z-index: -1;
-}
+
 
 .backdropOrangeColor2 > bb {
   opacity: 10%;
@@ -288,9 +279,11 @@ nav {
 }
 
 .closeUP {
+  border: red solid 3px;
    display: flex;
    align-items: center;
    justify-content:space-between;
+   
   
    
    
